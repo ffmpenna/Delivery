@@ -1,7 +1,7 @@
 a {
-  text-decoration: none;
   display: flex;
   flex-direction: column;
+  text-decoration: none;
   width: 100%;
 }
 
@@ -11,31 +11,31 @@ a li {
 }
 
 .order-title {
-  text-align: center;
-  font-family: 'Courier New', Courier, monospace;
+  font-family: Courier New , Courier , monospace;
   margin: 30px;
+  text-align: center;
 }
 
-.order-title::after {
-  content: "";
-  display: block;
-  width: 500px;
-  height: 3px;
+.order-title:after {
   background-color: #302e2e;
+  content: '';
+  display: block;
+  height: 3px;
   margin: 0 auto;
+  width: 500px;
 }
 
 .orders-container {
-  display: grid;
-  grid-template-columns: repeat(3, 300px);
   align-items: center;
-  justify-content: center;
+  display: grid;
+  font-family: Segoe UI , Tahoma , Geneva , Verdana , sans-serif;
   gap: 25px;
+  grid-template-columns: repeat(3, 300px);
+  height: fit-content;
+  justify-content: center;
+  line-height: 200%;
   margin: 0 auto;
   width: 80%;
-  height: fit-content;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  line-height: 200%;
 }
 
 .card-order {
@@ -50,8 +50,8 @@ a li {
 }
 
 .number-order {
-  font-weight: 800;
   color: #302e2e;
+  font-weight: 800;
 }
 
 .address-order, .price-order, .date-order, .status-order {
@@ -62,18 +62,18 @@ a li {
 
 .status-order {
   background-color: #302e2e;
-  color: #f9cb00;
   border-radius: 10px;
+  color: #f9cb00;
   padding: 5px;
 }
 
 .order-header {
-  display: flex;
   align-items: center;
-  justify-content: space-around;
   background-color: #f9cb00;
-  width: 100%;
+  display: flex;
+  justify-content: space-around;
   padding: 5px 0;
+  width: 100%;
 }
 
 .order-body {

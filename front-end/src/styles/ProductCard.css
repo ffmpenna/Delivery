@@ -2,19 +2,19 @@
   align-items: center;
   column-gap: 20px;
   display: grid;
+  font-family: Segoe UI , Tahoma , Geneva , Verdana , sans-serif;
   grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
   justify-content: center;
   margin: 50px auto;
   row-gap: 40px;
   width: 80%;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-input[ type = 'number' ]::-webkit-inner-spin-button {
+input::-webkit-inner-spin-button {
   appearance: none;
 }
 
-input[ type = 'number' ] {
+input {
   appearance: textfield;
 }
 
