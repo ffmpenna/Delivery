@@ -1,11 +1,12 @@
 # Boas vindas ao repositório do meu *Site de Delivery* 🥃
 
 O projeto apresentado a seguir se resume em um site de **entrega de bebidas** que possui **três tipos** de usuários, tendo cada um suas respectivas **permissões** e **funcionalidades**. Sem contar a **interação** em **tempo real** entre eles.
+https://github.com/ffmpenna/Delivery-App/assets/106782125/ed85d0f4-8bab-4cc9-b92e-b1d5427b4340
 
-<p align="center">
-    <img width="45%" src="https://github.com/ffmpenna/Delivery-App/assets/106782125/ed85d0f4-8bab-4cc9-b92e-b1d5427b4340">
-    <img width="45%" src="https://github.com/ffmpenna/Delivery-App/assets/106782125/93ca023f-ddd8-4db1-b6a9-c24bf84419ed">
-</p>
+<div align="center">
+  <img width="80%" src="https://github.com/ffmpenna/Delivery-App/assets/106782125/ed85d0f4-8bab-4cc9-b92e-b1d5427b4340">
+  <img width="80%" src="https://github.com/ffmpenna/Delivery-App/assets/106782125/93ca023f-ddd8-4db1-b6a9-c24bf84419ed">
+</div>
 
 ## Orientações Gerais 🧐
 <details>
