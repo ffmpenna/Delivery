@@ -29,9 +29,9 @@ O projeto apresentado a seguir se resume em um site de **entrega de bebidas** qu
 
 - Verifique se possui Docker instalado e configurado em sua máquina. Caso não o tenha instalado siga as [instruções do site oficial](https://docs.docker.com/get-docker/);
 - Após a instalação, crie um container a partir de uma imagem MySQL. Para tal copie e cole o seguinte comando em seu terminal:
-
-`docker run --name container-mysql -e MYSQL_ROOT_PASSWORD=password -d -p 3306:3306 mysql:5.7`
-
+``` bash
+docker run --name container-mysql -e MYSQL_ROOT_PASSWORD=password -d -p 3306:3306 mysql:5.7
+```
 > Certifique-se que a porta 3306 esteja disponível em sua máquina. Caso contrário mude o valor da porta no código a cima.
 </details>
 
